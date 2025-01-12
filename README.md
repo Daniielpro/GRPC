@@ -25,7 +25,7 @@ GRPC/
 To clone this repository, use the following command:
 
  ```bash
- git clone https://github.com/your_user/grpc-simple-example.git
+ git clone https://github.com/Daniielpro/GRPC.git 
 
  ```
 
