@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package hello;
+
+// El servicio que define el método SayHello
+service Greeter {
+  rpc SayHello (HelloRequest) returns (HelloReply) {}
+}
+
+// Mensaje de solicitud
+message HelloRequest {
+  string name = 1;
+}
+
+// Mensaje de respuesta
+message HelloReply {
+  string message = 1;
+}
